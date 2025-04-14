@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 08.11.2024</changed>
+/// <changed>ʆϒʅ, 14.04.2025</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -361,7 +361,7 @@ advanced        MC                                  CTRL .. Up| Do| Le| Ri| 1| 2
                 FN .. C| N| Q| A| H| D| E| F
                 CTRL .. F1| F7
                 OP .. CMD .. Esc                    CTRL .. Power
-                [^] .. CTRL .. CMD .. Q
+                CTRL .. CMD .. Q                    ^ .. CMD .. Q
 
 dictionary      [OP] .. CMD .. F                    [^] .. CMD .. G
                 [^] .. CMD .. [| ]
@@ -389,7 +389,8 @@ tools           CMD .. F                            CMD .. ,
                 CMD .. I                            CMD .. J
 
 Safari -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-window          CMD .. T| N                         [^]| [OP] .. CMD .. W
+window          CMD .. T| N                         CMD .. ^ .. N
+                [^]| [OP] .. CMD .. W
                 OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
                 CTRL .. [^] .. Tab
                 ^ .. CMD .. \                       CMD .. 1| 2 ..
@@ -458,7 +459,7 @@ advanced        ^ .. Esc                            OP .. CMD .. I| U
 VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      [CTRL] .. OP .. [^] .. Le| Ri       CMD .. [^] .. Le| Ri
                 CTRL| OP| CMD .. pU| pD             CMD .. [^] .. Up| Do
-                FN .. [^] .. Up| Do| Le| Ri
+                FN .. [^] .. Up| Do| Le| Ri         CMD .. A [FN] .. [^] .. Up| Do
 
 edit            CMD .. I[2x]
                 CTRL .. [OP] .. Space[2x]
@@ -479,7 +480,7 @@ edit            CMD .. I[2x]
                 ^ .. CMD .. L, CMD F2
 
 infos           CMD .. K CMD .. I                   CMD .. .
-                CTRL .. OP .. Up| Do                CTRL .. OP .. End
+                CTRL .. OP .. Up| Do
 
                 [CMD] .. F12
                 OP .. F12                           CMD .. K F2
@@ -501,21 +502,22 @@ editor          ^ .. CMD .. A                       CMD .. K enter
                 ^ .. CMD .. V
 
                 [OP] .. CMD .. F                    [^] .. [CMD] .. F3
-                ^ .. CMD .. F| H
-                OP .. CMD .. C| W| R| P             [OP .. CMD] .. return
+                [OP]| [^] .. return                 [CMD] .. return
+                ^ .. CMD .. F| H                    OP .. CMD .. return
+                OP .. CMD .. C| W| R| P
 
 files           CMD .. [^] .. N| W                  CMD .. [ S
                 ^ .. CMD .. T                       CMD .. [^] .. S
                 CMD .. K R
 
 editors         OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
-                CMD K .. Q                          CTRL .. [^] .. Tab
+                CMD .. K Q                          CTRL .. [^] .. Tab
                 OP .. Tab
 
                 CMD .. 1| 2 ..                      CMD .. K CMD Le| Ri| Up |Do
                 [OP] .. CMD .. \                    CMD .. K O
 
-                CMD .. K ^ .. CMD .. Le| Ri
+                CMD .. K ^ .. CMD .. Le| Ri         FN .. OP .. CMD .. Le| Ri
                 CTRL .. CMD .. Le| Ri               CMD .. K .. Le| Ri| Up| Do
 
 views           CTRL| CMD .. 0
@@ -545,9 +547,8 @@ develop         CTRL .. F5| F5| ^ .. F5             ^ .. CMD .. F5
                 F10                                 F11| ^ .. F11
                 ^ .. CMD .. B
 
-settings        CMD .. ,                            CMD .. K CMD .. A| E
+settings        CMD .. ,                            CMD .. K CMD .. S| A| E| T
                 ^ .. F9                             ^ .. F10
-                CMD .. K CMD .. T
 
 XCode -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      OP| CMD .. [^] .. Le| Ri
